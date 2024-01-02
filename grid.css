@@ -1,0 +1,220 @@
+body{
+    font-family: monospace;
+}
+.whole{
+    justify-content: center;
+    display: flex;
+}
+.whole > div{
+    display: grid;
+}
+.red > a{
+    padding: 4px;
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 2px;
+    color: black;
+    background-color: rgb(255, 47, 47);
+    text-decoration: none;
+}
+.red > a:hover{
+    padding: 4px;
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 2px;
+    color: black;
+    background-color: rgb(255, 107, 107);
+    text-decoration: none;
+}
+.green > a{
+    padding: 4px;
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 2px;
+    color: black;
+    background-color: rgb(43, 185, 43);
+    text-decoration: none;
+}
+.green > a:hover{
+    padding: 4px;
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 2px;
+    color: black;
+    background-color: rgb(110, 217, 110);
+    text-decoration: none;
+}
+.blue > a{
+    padding: 4px;
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 2px;
+    color: black;
+    background-color: rgb(68, 171, 255);
+    text-decoration: none;
+}
+.blue > a:hover{
+    padding: 4px;
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 2px;
+    color: black;
+    background-color: rgb(116, 192, 255);
+    text-decoration: none;
+}
+.la > a{
+    padding: 4px;
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 2px;
+    color: black;
+    background-color: rgb(255, 255, 50);
+    text-decoration: none;
+}
+.la > a:hover{
+    padding: 4px;
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 2px;
+    color: black;
+    background-color: rgb(255, 255, 112);
+    text-decoration: none;
+}
+.ok > a{
+    padding: 4px;
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 2px;
+    color: black;
+    background-color: rgb(255, 255, 50);
+    text-decoration: none;  
+    flex: 1;
+}
+.ok > a:hover{
+    padding: 4px;
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 2px;
+    color: black;
+    background-color: rgb(255, 255, 112);
+    text-decoration: none;  
+    flex: 1;
+}
+.n > a{
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+.blue .red{
+    padding: 4px;
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 2px;
+    color: black;
+    background-color: rgb(255, 47, 47);
+    text-decoration: none;
+}
+.blue .red:hover{
+    padding: 4px;
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 2px;
+    color: black;
+    background-color: rgb(255, 107, 107);
+    text-decoration: none;
+}
+.red  .w{
+    text-align: center;
+    color: white;
+    background-color: white;
+    text-decoration: none;
+    border: white;
+    padding: 16px;
+}
+.blue .w{
+    text-align: center;
+    color: white;
+    background-color: white;
+    text-decoration: none;
+    border: white;
+    padding: 16px;
+}
+.green .w{
+    text-align: center;
+    color: white;
+    background-color: white;
+    text-decoration: none;
+    border: white;
+    padding: 16px;
+}
+.la .w,.ok .w{
+    text-align: center;
+    color: white;
+    background-color: white;
+    text-decoration: none;
+    border: white;
+    padding: 16px;  
+}
+.n .w{
+    text-align: center;
+    color: white;
+    background-color: white;
+    text-decoration: none;
+    border: white;
+    padding: 16px;
+}
+.blue  .n{
+    text-align: center;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: white;
+}
+.green .n{
+    text-align: center;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: white;
+}
+.red .n{
+    text-align: center;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: white;
+}
+.la .n,.ok .n{
+    text-align: center;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: white;
+    font-size: 2rem;
+}
+.la,.ok{
+    display: flex;
+}
+
+.yellow{
+    display: grid;
+    margin-top: 20px;
+    justify-content: center;
+}
+.pt{
+    display: grid;
+}
