@@ -7,11 +7,12 @@ body{
 }
 .whole > div{
     display: grid;
+    grid-auto-rows: 1fr;
 }
 .red > a{
     padding: 4px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.3rem;
     border: 2px solid rgb(221, 221, 221);
     border-radius: 2px;
     color: black;
@@ -21,7 +22,7 @@ body{
 .red > a:hover{
     padding: 4px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.3rem;
     border: 2px solid rgb(221, 221, 221);
     border-radius: 2px;
     color: black;
@@ -31,7 +32,7 @@ body{
 .green > a{
     padding: 4px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.3rem;
     border: 2px solid rgb(221, 221, 221);
     border-radius: 2px;
     color: black;
@@ -41,7 +42,7 @@ body{
 .green > a:hover{
     padding: 4px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.3rem;
     border: 2px solid rgb(221, 221, 221);
     border-radius: 2px;
     color: black;
@@ -51,7 +52,7 @@ body{
 .blue > a{
     padding: 4px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.3rem;
     border: 2px solid rgb(221, 221, 221);
     border-radius: 2px;
     color: black;
@@ -61,7 +62,7 @@ body{
 .blue > a:hover{
     padding: 4px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.3rem;
     border: 2px solid rgb(221, 221, 221);
     border-radius: 2px;
     color: black;
@@ -71,7 +72,7 @@ body{
 .la > a{
     padding: 4px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.3rem;
     border: 2px solid rgb(221, 221, 221);
     border-radius: 2px;
     color: black;
@@ -81,7 +82,7 @@ body{
 .la > a:hover{
     padding: 4px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.3rem;
     border: 2px solid rgb(221, 221, 221);
     border-radius: 2px;
     color: black;
@@ -91,7 +92,7 @@ body{
 .ok > a{
     padding: 4px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.3rem;
     border: 2px solid rgb(221, 221, 221);
     border-radius: 2px;
     color: black;
@@ -102,7 +103,7 @@ body{
 .ok > a:hover{
     padding: 4px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.3rem;
     border: 2px solid rgb(221, 221, 221);
     border-radius: 2px;
     color: black;
@@ -112,7 +113,7 @@ body{
 }
 .n > a{
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.3rem;
     color: black;
     background-color: white;
     text-decoration: none;
@@ -120,7 +121,7 @@ body{
 .blue .red{
     padding: 4px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.3rem;
     border: 2px solid rgb(221, 221, 221);
     border-radius: 2px;
     color: black;
@@ -130,7 +131,7 @@ body{
 .blue .red:hover{
     padding: 4px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.3rem;
     border: 2px solid rgb(221, 221, 221);
     border-radius: 2px;
     color: black;
@@ -204,7 +205,7 @@ body{
     background-color: white;
     text-decoration: none;
     border: white;
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 .la,.ok{
     display: flex;
@@ -212,9 +213,191 @@ body{
 
 .yellow{
     display: grid;
-    margin-top: 20px;
+    margin-top: 25px;
     justify-content: center;
 }
 .pt{
     display: grid;
 }
+hr{
+    margin: 10px;
+}
+
+
+/* red elements */
+.red-div{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    border: 3px solid black;
+    width: max-content;
+    margin-top: 10.3%;
+}
+.red{
+    background-color: rgb(255, 47, 47);
+    text-align: center;
+    display: flex;
+    padding-right: 2.5rem;
+}
+.red-info{
+    overflow-y: scroll;
+    height: 400px;
+}
+.red > ul{
+    padding-top: 3rem;
+}
+.red > ul > li{
+    font-size: 2.5rem;
+}
+.red-info > ul > li{
+    font-size: 2.2rem;
+}
+.red > ul,.red-info > ul{
+    list-style-type: none;
+}
+.red .red-e{
+    font-size: 5rem;
+}
+.red .tableL{
+    color: black;
+    font-size: 2.2rem;
+    padding: 4px;
+    margin: 4px;
+    text-decoration: none;
+    text-align: left;
+}
+/* end red elements */
+
+
+/* green elements */
+.green-div{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    border: 3px solid black;
+    width: max-content;
+}
+.green{
+    background-color: rgb(255, 47, 47);
+    text-align: center;
+    display: flex;
+    padding-right: 2.5rem;
+}
+.green-info{
+    overflow-y: scroll;
+    height: 400px;
+}
+.green > ul{
+    padding-top: 3rem;
+}
+.green > ul > li{
+    font-size: 2.5rem;
+}
+.green-info > ul > li{
+    font-size: 2.2rem;
+}
+.green > ul,.green-info > ul{
+    list-style-type: none;
+}
+.green .green-e{
+    font-size: 5rem;
+}
+.green .tableL{
+    color: black;
+    font-size: 2.2rem;
+    padding: 4px;
+    margin: 4px;
+    text-decoration: none;
+    text-align: left;
+}
+
+    
+/* end green elements */
+
+
+/* blue elements */
+.blue-div{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    border: 3px solid black;
+    width: max-content;
+}
+.blue{
+    background-color: rgb(255, 47, 47);
+    text-align: center;
+    display: flex;
+    padding-right: 2.5rem;
+}
+.blue-info{
+    overflow-y: scroll;
+    height: 400px;
+}
+.blue > ul{
+    padding-top: 3rem;
+}
+.blue > ul > li{
+    font-size: 2.5rem;
+}
+.blue-info > ul > li{
+    font-size: 2.2rem;
+}
+.blue > ul,.blue-info > ul{
+    list-style-type: none;
+}
+.blue .blue-e{
+    font-size: 5rem;
+}
+.blue .tableL{
+    color: black;
+    font-size: 2.2rem;
+    padding: 4px;
+    margin: 4px;
+    text-decoration: none;
+    text-align: left;
+}
+/* end blue elements */
+
+
+/* yellow elements */
+.yellow-div{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    border: 3px solid black;
+    width: max-content;
+}
+.yellow{
+    background-color: rgb(255, 47, 47);
+    text-align: center;
+    display: flex;
+    padding-right: 2.5rem;
+}
+.yellow-info{
+    overflow-y: scroll;
+    height: 400px;
+}
+.yellow > ul{
+    padding-top: 3rem;
+}
+.yellow > ul > li{
+    font-size: 2.5rem;
+}
+.yellow-info > ul > li{
+    font-size: 2.2rem;
+}
+.yellow > ul,.yellow-info > ul{
+    list-style-type: none;
+}
+.yellow .yellow-e{
+    font-size: 5rem;
+}
+.yellow .tableL{
+    color: black;
+    font-size: 2.2rem;
+    padding: 4px;
+    margin: 4px;
+    text-decoration: none;
+    text-align: left;
+}
+/* end yellow elements */
