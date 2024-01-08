@@ -225,7 +225,7 @@ hr{
 
 
 /* red elements */
-.H-div{
+.R-div{
     justify-content: center;
     display: flex;
     border: 3px solid black;
@@ -238,32 +238,32 @@ hr{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);    
 }
-.H{
+.R{
     background-color: rgb(255, 47, 47);
     text-align: center;
     display: flex;
     padding-right: 2.5rem;
 }
-.H-info{
+.R-info{
     overflow-y: scroll;
     height: 400px;
 }
-.H > ul{
+.R > ul{
     padding-top: 3rem;
 }
-.H > ul > li{
+.R > ul > li{
     font-size: 2.5rem;
 }
-.H-info > ul > li{
+.R-info > ul > li{
     font-size: 2.2rem;
 }
-.H > ul,.H-info > ul{
+.R > ul,.R-info > ul{
     list-style-type: none;
 }
-.H .H-e{
+.R .R-e{
     font-size: 5rem;
 }
-.H .tableL{
+.R .tableL{
     color: black;
     font-size: 2.2rem;
     padding: 4px;
@@ -272,7 +272,7 @@ hr{
     border: none;
     background-color: rgb(255, 47, 47);
 }
-.H .tableL:hover{
+.R .tableL:hover{
     color: black;
     font-size: 2.2rem;
     padding: 4px;
