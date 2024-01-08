@@ -225,179 +225,241 @@ hr{
 
 
 /* red elements */
-.red-div{
+.H-div{
     justify-content: center;
-    margin: auto;
     display: flex;
     border: 3px solid black;
     width: max-content;
-    margin-top: 10.3%;
+    font-family: monospace;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);    
 }
-.red{
+.H{
     background-color: rgb(255, 47, 47);
     text-align: center;
     display: flex;
     padding-right: 2.5rem;
 }
-.red-info{
+.H-info{
     overflow-y: scroll;
     height: 400px;
 }
-.red > ul{
+.H > ul{
     padding-top: 3rem;
 }
-.red > ul > li{
+.H > ul > li{
     font-size: 2.5rem;
 }
-.red-info > ul > li{
+.H-info > ul > li{
     font-size: 2.2rem;
 }
-.red > ul,.red-info > ul{
+.H > ul,.H-info > ul{
     list-style-type: none;
 }
-.red .red-e{
+.H .H-e{
     font-size: 5rem;
 }
-.red .tableL{
+.H .tableL{
     color: black;
     font-size: 2.2rem;
     padding: 4px;
-    margin: 4px;
     text-decoration: none;
-    text-align: left;
+    height: 2.2rem;
+    border: none;
+    background-color: rgb(255, 47, 47);
+}
+.H .tableL:hover{
+    color: black;
+    font-size: 2.2rem;
+    padding: 4px;
+    text-decoration: none;
+    height: 2.2rem;
+    border: none;
+    background-color: rgb(255, 47, 47);
 }
 /* end red elements */
 
 
 /* green elements */
-.green-div{
+.G-div{
     justify-content: center;
-    margin: auto;
     display: flex;
     border: 3px solid black;
     width: max-content;
+    font-family: monospace;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);    
 }
-.green{
+.G{
     background-color: rgb(255, 47, 47);
     text-align: center;
     display: flex;
     padding-right: 2.5rem;
 }
-.green-info{
+.G-info{
     overflow-y: scroll;
     height: 400px;
 }
-.green > ul{
+.G > ul{
     padding-top: 3rem;
 }
-.green > ul > li{
+.G > ul > li{
     font-size: 2.5rem;
 }
-.green-info > ul > li{
+.G-info > ul > li{
     font-size: 2.2rem;
 }
-.green > ul,.green-info > ul{
+.G > ul,.G-info > ul{
     list-style-type: none;
 }
-.green .green-e{
+.G .G-e{
     font-size: 5rem;
 }
-.green .tableL{
+.G .tableL{
     color: black;
     font-size: 2.2rem;
     padding: 4px;
-    margin: 4px;
     text-decoration: none;
-    text-align: left;
+    height: 2.2rem;
+    border: none;
+    background-color: rgb(255, 47, 47);
 }
-
+.G .tableL:hover{
+    color: black;
+    font-size: 2.2rem;
+    padding: 4px;
+    text-decoration: none;
+    height: 2.2rem;
+    border: none;
+    background-color: rgb(255, 47, 47);
+}
     
 /* end green elements */
 
 
 /* blue elements */
-.blue-div{
+.B-div{
     justify-content: center;
-    margin: auto;
     display: flex;
     border: 3px solid black;
     width: max-content;
+    font-family: monospace;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);    
 }
-.blue{
+.B{
     background-color: rgb(255, 47, 47);
     text-align: center;
     display: flex;
     padding-right: 2.5rem;
 }
-.blue-info{
+.B-info{
     overflow-y: scroll;
     height: 400px;
 }
-.blue > ul{
+.B > ul{
     padding-top: 3rem;
 }
-.blue > ul > li{
+.B > ul > li{
     font-size: 2.5rem;
 }
-.blue-info > ul > li{
+.B-info > ul > li{
     font-size: 2.2rem;
 }
-.blue > ul,.blue-info > ul{
+.B > ul,.B-info > ul{
     list-style-type: none;
 }
-.blue .blue-e{
+.B .B-e{
     font-size: 5rem;
 }
-.blue .tableL{
+.B .tableL{
     color: black;
     font-size: 2.2rem;
     padding: 4px;
-    margin: 4px;
     text-decoration: none;
-    text-align: left;
+    height: 2.2rem;
+    border: none;
+    background-color: rgb(255, 47, 47);
+}
+.B .tableL:hover{
+    color: black;
+    font-size: 2.2rem;
+    padding: 4px;
+    text-decoration: none;
+    height: 2.2rem;
+    border: none;
+    background-color: rgb(255, 47, 47);
 }
 /* end blue elements */
 
 
 /* yellow elements */
-.yellow-div{
+.Y-div{
     justify-content: center;
-    margin: auto;
     display: flex;
     border: 3px solid black;
     width: max-content;
+    font-family: monospace;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);    
 }
-.yellow{
+.Y{
     background-color: rgb(255, 47, 47);
     text-align: center;
     display: flex;
     padding-right: 2.5rem;
 }
-.yellow-info{
+.Y-info{
     overflow-y: scroll;
     height: 400px;
 }
-.yellow > ul{
+.Y > ul{
     padding-top: 3rem;
 }
-.yellow > ul > li{
+.Y > ul > li{
     font-size: 2.5rem;
 }
-.yellow-info > ul > li{
+.Y-info > ul > li{
     font-size: 2.2rem;
 }
-.yellow > ul,.yellow-info > ul{
+.Y > ul,.Y-info > ul{
     list-style-type: none;
 }
-.yellow .yellow-e{
+.Y .Y-e{
     font-size: 5rem;
 }
-.yellow .tableL{
+.Y .tableL{
     color: black;
     font-size: 2.2rem;
     padding: 4px;
-    margin: 4px;
     text-decoration: none;
-    text-align: left;
+    height: 2.2rem;
+    border: none;
+    background-color: rgb(255, 47, 47);
 }
-/* end yellow elements */
+.Y .tableL:hover{
+    color: black;
+    font-size: 2.2rem;
+    padding: 4px;
+    text-decoration: none;
+    height: 2.2rem;
+    border: none;
+    background-color: rgb(255, 47, 47);
+}
+    /* end yellow elements  */
