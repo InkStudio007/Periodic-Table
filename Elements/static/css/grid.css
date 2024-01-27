@@ -360,7 +360,7 @@ hr{
     transform: translate(-50%, -50%);    
 }
 .B{
-    background-color: rgb(255, 47, 47);
+    background-color: rgb(68, 171, 255);
     text-align: center;
     display: flex;
     padding-right: 2.5rem;
@@ -391,7 +391,7 @@ hr{
     text-decoration: none;
     height: 2.2rem;
     border: none;
-    background-color: rgb(255, 47, 47);
+    background-color: rgb(68, 171, 255);
 }
 .B .tableL:hover{
     color: black;
@@ -400,7 +400,7 @@ hr{
     text-decoration: none;
     height: 2.2rem;
     border: none;
-    background-color: rgb(255, 47, 47);
+    background-color: rgb(68, 171, 255);
 }
 /* end blue elements */
 
@@ -420,7 +420,7 @@ hr{
     transform: translate(-50%, -50%);    
 }
 .Y{
-    background-color: rgb(255, 47, 47);
+    background-color: rgb(255, 255, 50);
     text-align: center;
     display: flex;
     padding-right: 2.5rem;
@@ -451,7 +451,7 @@ hr{
     text-decoration: none;
     height: 2.2rem;
     border: none;
-    background-color: rgb(255, 47, 47);
+    background-color: rgb(255, 255, 50);
 }
 .Y .tableL:hover{
     color: black;
@@ -460,6 +460,6 @@ hr{
     text-decoration: none;
     height: 2.2rem;
     border: none;
-    background-color: rgb(255, 47, 47);
+    background-color: rgb(255, 255, 50);
 }
     /* end yellow elements  */

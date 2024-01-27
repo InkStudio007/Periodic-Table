@@ -133,6 +133,25 @@ def seaborgium(request):
     return render(request, '6/Seaborgium.html')
 
 
+# 7
+
+
+def manganese(request):
+    return render(request, '7/Manganese.html')
+
+
+def technetium(request):
+    return render(request, '7/Thechnetium.html')
+
+
+def rhenium(request):
+    return render(request, '7/Rhenium.html')
+
+
+def bohrium(request):
+    return render(request, '7/Bohrium.html')
+
+
 # 8
 
 
@@ -150,6 +169,25 @@ def osmium(request):
 
 def hassium(request):
     return render(request, '8/Hassium.html')
+
+
+# 9
+
+
+def cobalt(request):
+    return render(request, '9/Cobalt.html')
+
+
+def rhodium(request):
+    return render(request, '9/Rhodium.html')
+
+
+def iridium(request):
+    return render(request, '9/Iridium.html')
+
+
+def meitnerium(request):
+    return render(request, '9/Meitnerium.html')
 
 
 # 10
@@ -171,6 +209,25 @@ def darmstadtium(request):
     return render(request, '10/Darmstadtium.html')
 
 
+# 11
+
+
+def copper(request):
+    return render(request, '11/Copper.html')
+
+
+def silver(request):
+    return render(request, '11/Silver.html')
+
+
+def gold(request):
+    return render(request, '11/Gold.html')
+
+
+def roentgenium(request):
+    return render(request, '7/Roentgenium.html')
+
+
 # 12
 
 
@@ -178,8 +235,8 @@ def zinc(request):
     return render(request, '12/Zinc.html')
 
 
-def codmium(request):
-    return render(request, '12/Codmium.html')
+def cadmium(request):
+    return render(request, '12/Cadmium.html')
 
 
 def mercury(request):
@@ -190,3 +247,168 @@ def copernicium(request):
     return render(request, '12/Copernicium.html')
 
 
+# 13
+
+
+def boron(request):
+    return render(request, '13/Boron.html')
+
+
+def aluminum(request):
+    return render(request, '13/Aluminum.html')
+
+
+def gallium(request):
+    return render(request, '13/Gallium.html')
+
+
+def indium(request):
+    return render(request, '13/Indium.html')
+
+
+def thallium(request):
+    return render(request, '13/Thallium.html')
+
+
+def nihonium(request):
+    return render(request, '13/Nihonium.html')
+
+
+# 14
+
+
+def carbon(request):
+    return render(request, '14/Carbon.html')
+
+
+def silicon(request):
+    return render(request, '14/Silicon.html')
+
+
+def germanium(request):
+    return render(request, '14/Germanium.html')
+
+
+def tin(request):
+    return render(request, '14/Tin.html')
+
+
+def lead(request):
+    return render(request, '14/Lead.html')
+
+
+def flerovium(request):
+    return render(request, '14/Flerovium.html')
+
+
+# 15
+
+
+def nitrogen(request):
+    return render(request, '15/Nitrogen.html')
+
+
+def phosphorus(request):
+    return render(request, '15/Phosphorus.html')
+
+
+def arsenic(request):
+    return render(request, '15/Arsenic.html')
+
+
+def antimony(request):
+    return render(request, '15/Antimony.html')
+
+
+def bismuth(request):
+    return render(request, '15/Bismuth.html')
+
+
+def moscovium(request):
+    return render(request, '15/Moscovium.html')
+
+
+# 16
+
+
+def oxygen(request):
+    return render(request, '16/Oxygen.html')
+
+
+def sulfur(request):
+    return render(request, '16/Sulfur.html')
+
+
+def selenium(request):
+    return render(request, '16/Selenium.html')
+
+
+def tellurium(request):
+    return render(request, '16/Tellurium.html')
+
+
+def polonium(request):
+    return render(request, '16/Polonium.html')
+
+
+def livermorium(request):
+    return render(request, '16/Livermorium.html')
+
+
+
+# 17
+
+
+def fluorine(request):
+    return render(request, '17/Fluorine.html')
+
+
+def chlorine(request):
+    return render(request, '17/Chlorine.html')
+
+
+def bromine(request):
+    return render(request, '17/Bromine.html')
+
+
+def Iodine(request):
+    return render(request, '17/Iodine.html')
+
+
+def astatine(request):
+    return render(request, '17/Astatine.html')
+
+
+def tennessine(request):
+    return render(request, '17/Tennessine.html')
+
+
+# 18
+
+
+def helium(request):
+    return render(request, '18/Helium.html')
+
+
+def neon(request):
+    return render(request, '18/Neon.html')
+
+
+def argon(request):
+    return render(request, '18/Argon.html')
+
+
+def krypton(request):
+    return render(request, '18/Krypton.html')
+
+
+def xenon(request):
+    return render(request, '18/Xenon.html')
+
+
+def radon(request):
+    return render(request, '18/Radon.html')
+
+
+def oganesson(request):
+    return render(request, '18/Oganesson.html')
