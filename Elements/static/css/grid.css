@@ -420,7 +420,7 @@ hr{
     transform: translate(-50%, -50%);    
 }
 .Y{
-    background-color: rgb(255, 255, 50);
+    background-color: rgb(255, 255, 112);
     text-align: center;
     display: flex;
     padding-right: 2.5rem;
@@ -451,7 +451,7 @@ hr{
     text-decoration: none;
     height: 2.2rem;
     border: none;
-    background-color: rgb(255, 255, 50);
+    background-color: rgb(255, 255, 112);
 }
 .Y .tableL:hover{
     color: black;
@@ -460,6 +460,6 @@ hr{
     text-decoration: none;
     height: 2.2rem;
     border: none;
-    background-color: rgb(255, 255, 50);
+    background-color: rgb(255, 255, 112);
 }
-    /* end yellow elements  */
+/* end yellow elements  */

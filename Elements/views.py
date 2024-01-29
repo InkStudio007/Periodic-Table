@@ -412,3 +412,129 @@ def radon(request):
 
 def oganesson(request):
     return render(request, '18/Oganesson.html')
+
+
+# La
+
+
+def lanthanum(request):
+    return render(request, 'La/Lanthanum.html')
+
+
+def cerium(request):
+    return render(request, 'La/Cerium.html')
+
+
+def praseodymium(request):
+    return render(request, 'La/Praseodymium.html')
+
+
+def neodymium(request):
+    return render(request, 'La/Neodymium.html')
+
+
+def promethium(request):
+    return render(request, 'La/Promethium.html')
+
+
+def samarium(request):
+    return render(request, 'La/Samarium.html')
+
+
+def europium(request):
+    return render(request, 'La/Europium.html')
+
+
+def gadolinium(request):
+    return render(request, 'La/Gadolinium.html')
+
+
+def terbium(request):
+    return render(request, 'La/Terbium.html')
+
+
+def dysprosium(request):
+    return render(request, 'La/Dysprosium.html')
+
+
+def holmium(request):
+    return render(request, 'La/Holmium.html')
+
+
+def erbium(request):
+    return render(request, 'La/Erbium.html')
+
+
+def thulium(request):
+    return render(request, 'La/Thulium.html')
+
+
+def ytterbium(request):
+    return render(request, 'La/Ytterbium.html')
+
+
+def lutetium(request):
+    return render(request, 'La/Lutetium.html')
+
+
+# Ac
+
+
+def actinium(request):
+    return render(request, 'Ac/Actinium.html')
+
+
+def thorium(request):
+    return render(request, 'Ac/Thorium.html')
+
+
+def protactinium(request):
+    return render(request, 'Ac/Protactinium.html')
+
+
+def uranium(request):
+    return render(request, 'Ac/Uranium.html')
+
+
+def neptunium(request):
+    return render(request, 'Ac/Neptunium.html')
+
+
+def plutonium(request):
+    return render(request, 'Ac/Plutonium.html')
+
+
+def americium(request):
+    return render(request, 'Ac/Americium.html')
+
+
+def curium(request):
+    return render(request, 'Ac/Curium.html')
+
+
+def berkelium(request):
+    return render(request, 'Ac/Berkelium.html')
+
+
+def californium(request):
+    return render(request, 'Ac/Californium.html')
+
+
+def einsteinium(request):
+    return render(request, 'Ac/Einsteinium.html')
+
+
+def fermium(request):
+    return render(request, 'Ac/Fermium.html')
+
+
+def mendelevium(request):
+    return render(request, 'Ac/Mendelevium.html')
+
+
+def nobelium(request):
+    return render(request, 'Ac/Nobelium.html')
+
+
+def lawrencium(request):
+    return render(request, 'Ac/Lawrencium.html')
